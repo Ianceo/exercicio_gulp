@@ -1,0 +1,26 @@
+// Exemplo básico de SASS
+$cor-principal: #3498db;
+$padding-padrao: 10px;
+
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: white;
+  padding: $padding-padrao;
+  border: 1px solid darken($cor-principal, 10%);
+  border-radius: 8px;
+
+  h1 {
+    color: $cor-principal;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  p {
+    color: darken($cor-principal, 25%);
+    font-size: 16px;
+  }
+}
